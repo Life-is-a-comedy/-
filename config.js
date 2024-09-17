@@ -3,13 +3,22 @@ var config = {
     // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
     // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
-       "Chúc mừng sinh nhật bạn!"
-"Hy vọng tuổi mới này"
-    "mọi điều bạn mong ước sẽ trở thành hiện thực."
-"Ngày hôm nay,"
-    "hãy để mọi lo lắng qua một bên và tận hưởng từng khoảnh khắc bên cạnh những người bạn yêu thương."
-"Chúc bạn một ngày thật vui và tràn ngập tiếng cười!"
-
+        "送给我的好兄弟王伟栋",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!// 同上...
+        "今天是你的生日",
+        "祝你生日快乐！",
+        "很高兴在精华这个艰苦的地方认识你！",
+        "纵使高三的经历不那么美好",
+        "但我们还是在高三创造出了一个又一个奇迹",
+        "一起讨论化学，一起研究生物，一起思考物理",
+        "十年寒窗，十年磨剑",
+        "一朝高考，金榜题名",
+        "愿你在新的一岁里",
+        "收获更多的快乐和成功",
+        "学业顺利，生活充满幸福！",
+        "继续保持那份热情吧，我们一起创造奇迹！",
+        "相信奇迹的人本就和奇迹一样璀璨！",
+        "此致，敬礼！",
+        "————Life is a comedy谢谨泽",
     ],
     /**
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -21,19 +30,19 @@ var config = {
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
     imgs: {
-        "心爱的小可爱": "./imgs/xiaokeai.png",
+        // "杰克向你行礼！": "./imgs/b.png",
+        // "夜来香向你致敬！": "./imgs/w.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
-       turn_on: "Start",
-play: "Music",
-bannar_coming: "Colors",
-balloons_flying: "Seems like something's missing",
-cake_fadein: "Cake?",
-light_candle: "Candles?",
-wish_message: "Happy birthday Hoài Vũ.",
-story: "Vũ báo , happy birthday to you."
-
+        turn_on: "开始",
+        play: "音乐",
+        bannar_coming: "横幅",
+        balloons_flying: "好像少点东西",
+        cake_fadein: "蛋糕？",
+        light_candle: "蜡烛？",
+        wish_message: "生日快乐",
+        story: "A MESSAGE FOR YOU",
     }
 };
